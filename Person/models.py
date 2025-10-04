@@ -19,3 +19,5 @@ class Person(AbstractUser):
     def __str__(self):
         return f"L'email est: {self.email} et le uusername est {self.username}"
     # return self.email + self.username
+
+#l str kima toString() f Java tkhai l objet y3awd y3tik string
