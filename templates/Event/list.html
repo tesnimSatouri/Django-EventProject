@@ -1,0 +1,12 @@
+<h1>Event List</h1>
+{% for l in ll %}
+    <ul>
+        <li>{{l.title}}</li>
+        <li>{{l.description}}</li>
+        <li>{{l.category}}
+        <li>{{l.state}}</li>
+        <li>{{l.nb_participant}}</li>
+        <li>{{l.evt_date}}
+        <li><img src="{{l.image.url}}">
+    </ul>
+{% endfor %}
